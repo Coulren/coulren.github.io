@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>White Touch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
+    <script type="text/javascript">
+        VK.init({apiId: 7084371, onlyWidgets: true});
+      </script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        var $ = jQuery.noConflict();
+        $(window).load(function() {
+        $('.flexslider').flexslider({
+              animation: "fade"
+        });
+        
+        $(function() {
+            $('.show_menu').click(function(){
+                    $('.menu').fadeIn();
+                    $('.show_menu').fadeOut();
+                    $('.hide_menu').fadeIn();
+            });
+            $('.hide_menu').click(function(){
+                    $('.menu').fadeOut();
+                    $('.show_menu').fadeIn();
+                    $('.hide_menu').fadeOut();
+            });
+        });
+      });
+    </script>
+</head>
+<body>
+    
+    <header>
+        <div class="header-container">
+        <div class="info">
+            <p><a href="https://goo.gl/maps/2Kwae8da34Ako79R9">Адрес: Тамбов, ул. Астраханская 1</a></p>
+            <p>Телефон: <span class="number">+7 (9027) 25-08-08</span><a href="https://vk.com/white_touch_tmb"><img src="img/vk.png" alt="vk" class="vk shake-bottom"></a><a href="https://www.instagram.com/white_touch_tmb/"><img src="img/inst.png" alt="inst" class="inst shake-bottom"></a></p>
+            <p>Ждём вас каждый день с 10:00 до 19:00</p>
+        </div>
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <input type="checkbox" id="menu-checkbox">
+            <nav role="navigation">
+                <label for="menu-checkbox" class="toggle-button" data-open="Меню"
+                data-close="Закрыть" onclick></label>
+                <ul class="main-menu">
+                    <li><a href="#special">Акции</a></li>
+                    <li><a href="#slider">Фото</a></li>
+                    <li><a href="#price">Услуги и цены</a></li>
+                    <li><a href="#comments">Отзывы</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+    <hr>
+    <main>
+            <img src="img/logo2.png" alt="logo" class="logo2 slide-in-left">
+        <section class="top-slide"> 
+            <div class="top-container focus-in-expand">
+                <div><h2>White Touch</h2></div>
+                <div><h3>Студия красоты</h3></div>
+                <div class="dop"><p>*уайт тач (белое прикосновение)</p></div>
+                <div class="usl"><p>- Парикмахерские услуги</p></div>
+                <div class="usl"><p>- Косметология</p></div>
+                <div class="usl"><p>- Маникюр/педикюр</p></div>
+                <div class="usl"><p>- Браумейкер</p></div>
+                <div class="usl"><p>- Шугаринг</p></div>
+                <div class="usl"><p>- Макияж</p></div>
+                <div class="usl"><p>- Наращивание волос</p></div>
+        </div>
+        <button class="bubbly-button" onclick="location.href='https://goo.gl/maps/2Kwae8da34Ako79R9';">Как нас найти?</button>
+        </section><hr>
+       <section id="special" class="special">
+        <div class="special-container">
+            <h2>Специальные предложения</h2>
+           <div class="special-card">
+               <div class="card">
+                   <div class="topcard firstcard">
+                   </div>
+                   <div class="bottomcard">
+                       <p class="first-p firstp"><span>Скидка 15%</span> на все виды волос для наращивания! Наличие нужного цвета волос уточняйте у оператора.</p>
+                   </div>
+               </div>
+               <div class="card">
+                    <div class="topcard secondcard">  
+                    </div>
+                    <div class="bottomcard">
+                        <p class="first-p"><span>Скидки до 40%</span> на всю продукцию <span>Estel</span>. В наличии профессиональные средства для домашнего ухода за волосами <span>Estel Haute Couture</span>, <span>Estel Opium</span>, а также мужская линейка <span>Estel Alpha Homme</span> и детская линейка <span>Estel Little Me</span>.</p>
+                    </div>
+                </div>
+                <div class="card">
+                        <div class="topcard thirdcard">
+                        </div>
+                        <div class="bottomcard">
+                            <p class="first-p thirdp"><span>Скидка 20%</span> на масленное SPA-обертывание для волос. Регулярное осуществление процедуры полностью восстанавливает структуру волос и питает их по всей длине.</p>
+                        </div>
+                    </div>
+           </div>
+        </div>
+           
+       </section>
+    
+       <div class="container">       
+        
+        <div id="slider" class="slider_container">
+           <div class="flexslider">
+             <ul class="slides">
+               <li>
+                   <img src="img/slider/slide1.jpg" alt="" title=""/>
+                   <div class="flex-caption">
+                        <div class="caption_title_line"><h2>Наш зал</h2><p>Парикмахерcкий зал</p></div>
+                   </div>
+               </li>
+               <li>
+                   <img src="img/slider/slide2.jpg" alt="" title=""/>
+                   <div class="flex-caption">
+                        <div class="caption_title_line"><h2>Наш зал</h2><p>Зал для ногтевого сервиса</p></div>
+                   </div>
+               </li>
+               <li>
+                   <img src="img/slider/slide3.jpg" alt="" title=""/>
+                   <div class="flex-caption">
+                        <div class="caption_title_line"><h2>Наш зал</h2><p>Парикмахерский зал</p></div>
+                   </div>
+               </li>
+               <li>
+                <img src="img/slider/slide4.jpg" alt="" title=""/>
+                <div class="flex-caption">
+                     <div class="caption_title_line"><h2>Товары</h2><p>Продукция WELLA</p></div>
+                </div>
+            </li>
+            <li>
+                <img src="img/slider/slide5.jpg" alt="" title=""/>
+                <div class="flex-caption">
+                     <div class="caption_title_line"><h2>Товары</h2><p>Продукция WELLA</p></div>
+                </div>
+            </li>
+            <li>
+                <img src="img/slider/slide6.jpg" alt="" title=""/>
+                <div class="flex-caption">
+                     <div class="caption_title_line"><h2>Наш зал</h2><p>Кабинет косметолога</p></div>
+                </div>
+            </li>
+            <li>
+                <img src="img/slider/slide7.jpg" alt="" title=""/>
+                <div class="flex-caption">
+                     <div class="caption_title_line"><h2>Наш зал</h2><p>Лабаротория</p></div>
+                </div>
+            </li>
+            <li>
+                <img src="img/slider/slide8.jpg" alt="" title=""/>
+                <div class="flex-caption">
+                     <div class="caption_title_line"><h2>Наш зал</h2><p>Лабаротория</p></div>
+                </div>
+            </li>
+            <li>
+                <img src="img/slider/slide9.jpg" alt="" title=""/>
+                <div class="flex-caption">
+                     <div class="caption_title_line"><h2>Наш зал</h2><p>Ресепшн</p></div>
+                </div>
+            </li>
+            <li>
+                <img src="img/slider/slide10.jpg" alt="" title=""/>
+                <div class="flex-caption">
+                     <div class="caption_title_line"><h2>Наш зал</h2><p>Ресепшн</p></div>
+                </div>
+            </li>
+           </ul>
+         </div>
+      </div>
+       </div>  
+   </div>
+   
+<section id="price" class="price">
+    <div class="pricecard">
+        <p class="nails">Прайс <a href="#hidden1" onclick="view('hidden1'); return false">Ногтевой сервис</a></p>  
+        <div id="hidden1" style="display: none;">
+            <table class="table1">
+                <tr>
+                    <td class="zag">Маникюрный зал</td>
+                </tr>
+                <tr>
+                    <td class="zag">Наименование услуги</td>
+                    <td class="zag">Цена,руб.</td>
+                </tr>
+                <tr>
+                    <td>Маникюр женский классический</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>Маникюр мужской классический </td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>Маникюр детский </td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <td>Покрытие ногтей лаком</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Покрытие ногтей лаком "VENYLUX"</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Снятие лака</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Покрытие ногтей "Shellak CND" </td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>Покрытие ногтей "Emi"</td>
+                    <td>600</td>
+                </tr>
+                <tr>
+                    <td>Снятие гель-лака;шеллака</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Покрытие ногтей своим лаком</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Дизайн ногтей</td>
+                    <td>50-300 за ноготь</td>
+                </tr>
+                <tr>
+                    <td>Стразы "Svarovski"</td>
+                    <td>15р за 1шт.</td>
+                </tr>
+                <tr>
+                    <td>Парафинотерапия рук</td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <td>Массаж рук</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="zag">Педикюрный зал</td>
+                </tr>
+                <tr>
+                    <td class="zag">Наименование услуги</td>
+                    <td class="zag">Цена,руб.</td>
+                </tr>
+                <tr>
+                    <td>Педикюр классический женский</td>
+                    <td>600/700</td>
+                </tr>
+                <tr>
+                    <td>Педикюр классический мужской</td>
+                    <td>700/800</td>
+                </tr>
+                <tr>
+                    <td>Педикюр аппаратный женский </td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>Педикюр аппаратный мужской </td>
+                    <td>900</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="pricecard">
+        <p class="hair">Прайс <a href="#hidden2" onclick="view('hidden2'); return false">Наращивание волос</a></p>  
+         <div id="hidden2" style="display: none;">
+                <table class="table2">
+                        <tr>
+                            <td class="zag">Капсулы</td>
+                        </tr>
+                        <tr>
+                            <td class="zag">Длина</td>
+                            <td class="zag">Вес,гр</td>
+                            <td class="zag">Окрашенные средние и темные (цвета - 1;2;4;6;8;10;12;14;17;130;30;32;33;35) руб./шт.</td>
+                            <td class="zag">Окрашенные блонд (цвет 20;24;140;дб2;дб3;дб4) Омбре, Crazy руб./шт.</td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>0,59</td>
+                            <td>50</td>
+                            <td>55</td>
+                        </tr>
+                        <tr>
+                            <td>40</td>
+                            <td>0,62</td>
+                            <td>55</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>45</td>
+                            <td>0,66</td>
+                            <td>65</td>
+                            <td>75</td>
+                        </tr>
+                        <tr>
+                            <td>50</td>
+                            <td>0,68</td>
+                            <td>75</td>
+                            <td>85</td>
+                        </tr>
+                        <tr>
+                            <td>55</td>
+                            <td>0,71</td>
+                            <td>85</td>
+                            <td>95</td>
+                        </tr>
+                        <tr>
+                            <td>60</td>
+                            <td>0,75</td>
+                            <td>95</td>
+                            <td>105</td>
+                        </tr>
+                        <tr>
+                            <td>65</td>
+                            <td>0,79</td>
+                            <td>105</td>
+                            <td>115</td>
+                        </tr>
+                        <tr>
+                            <td>70</td>
+                            <td>0,83</td>
+                            <td>115</td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <td>80</td>
+                            <td></td>
+                            <td>135</td>
+                            <td>145</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                *Цена указана за 1 прядь. В упаковке содержится 25 прядей.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="zag">Ленты-4см.</td>
+                        </tr>
+                        <tr>
+                                <td class="zag">Длина</td>
+                                <td class="zag">Вес,гр</td>
+                                <td class="zag">Окрашенные средние и темные (цвета - 1;2;4;6;8;10;12;14;17;130;30;32;33;35) руб./шт.</td>
+                                <td class="zag">Окрашенные блонд (цвет 20;24;140;дб2;дб3;дб4) Омбре, Crazy руб./шт.</td>
+                            </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>35</td>
+                            <td>3000</td>
+                            <td>3300</td>
+                        </tr>
+                        <tr>
+                            <td>40</td>
+                            <td>40</td>
+                            <td>3700</td>
+                            <td>4100</td>
+                        </tr>
+                        <tr>
+                            <td>45</td>
+                            <td>43</td>
+                            <td>4600</td>
+                            <td>5000</td>
+                        </tr>
+                        <tr>
+                            <td>50</td>
+                            <td>46</td>
+                            <td>5600</td>
+                            <td>600</td>
+                        </tr>
+                        <tr>
+                            <td>60</td>
+                            <td>50</td>
+                            <td>7000</td>
+                            <td>7500</td>
+                        </tr>
+                        <tr>
+                            <td>70</td>
+                            <td>55</td>
+                            <td>7800</td>
+                            <td>8300</td>
+                        </tr>
+                        <tr>
+                            <td>80</td>
+                            <td>60</td>
+                            <td>9500</td>
+                            <td>10100</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">*Цены и вес указаны за упаковку 20 лент.</td>
+                        </tr>
+                        <td class="zag">Ленты-2,8см.</td>
+                        </tr>
+                        <tr>
+                                <td class="zag">Длина</td>
+                                <td class="zag">Вес,гр</td>
+                                <td class="zag">Окрашенные средние и темные (цвета - 1;2;4;6;8;10;12;14;17;130;30;32;33;35) руб./шт.</td>
+                                <td class="zag">Окрашенные блонд (цвет 20;24;140;дб2;дб3;дб4) Омбре, Crazy руб./шт.</td>
+                            </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>19</td>
+                            <td>2300</td>
+                            <td>2600</td>
+                        </tr>
+                        <tr>
+                            <td>40</td>
+                            <td>21</td>
+                            <td>2900</td>
+                            <td>3200</td>
+                        </tr>
+                        <tr>
+                            <td>45</td>
+                            <td>24</td>
+                            <td>3500</td>
+                            <td>3800</td>
+                        </tr>
+                        <tr>
+                            <td>50</td>
+                            <td>27</td>
+                            <td>4200</td>
+                            <td>2500</td>
+                        </tr>
+                        <tr>
+                            <td>60</td>
+                            <td>31</td>
+                            <td>5200</td>
+                            <td>5500</td>
+                        </tr>
+                        <tr>
+                            <td>70</td>
+                            <td>36</td>
+                            <td>5700</td>
+                            <td>6100</td>
+                        </tr>
+                        <tr>
+                            <td>80</td>
+                            <td>40</td>
+                            <td>6950</td>
+                            <td>7400</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">*Цены и вес указаны за упаковку 20 лент.</td>
+                        </tr>
+                        
+                        <td class="zag">Микроленты-1,4см.</td>
+                    </tr>
+                    <tr>
+                            <td class="zag">Длина</td>
+                            <td class="zag">Вес,гр</td>
+                            <td class="zag">Окрашенные средние и темные (цвета - 1;2;4;6;8;10;12;14;17;130;30;32;33;35) руб./шт.</td>
+                            <td class="zag">Окрашенные блонд (цвет 20;24;140;дб2;дб3;дб4) Омбре, Crazy руб./шт.</td>
+                        </tr>
+                    <tr>
+                        <td>30</td>
+                        <td>9</td>
+                        <td>1000</td>
+                        <td>1300</td>
+                    </tr>
+                    <tr>
+                        <td>40</td>
+                        <td>10</td>
+                        <td>1300</td>
+                        <td>1600</td>
+                    </tr>
+                    <tr>
+                        <td>45</td>
+                        <td>12</td>
+                        <td>1700</td>
+                        <td>1900</td>
+                    </tr>
+                    <tr>
+                        <td>50</td>
+                        <td>13</td>
+                        <td>1900</td>
+                        <td>2200</td>
+                    </tr>
+                    <tr>
+                        <td>60</td>
+                        <td>15</td>
+                        <td>2500</td>
+                        <td>2700</td>
+                    </tr>
+                    <tr>
+                        <td>70</td>
+                        <td>18</td>
+                        <td>2500</td>
+                        <td>3000</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">*Цены и вес указаны за упаковку 20 лент.</td>
+                    </tr>
+                    </table>
+        </div>
+    </div>
+    <div class="pricecard">
+         <p class="brow">Прайс <a href="#hidden3" onclick="view('hidden3'); return false">Оформление бровей</a></p>  
+        <div id="hidden3" style="display: none;">
+            <table class="table3">
+                <tr>
+                    <td class="zag">Наименование услуги</td>
+                    <td class="zag">Цена, руб.</td>
+                </tr>
+                <tr>
+                    <td>Коррекция бровей</td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <td>Окрашивание бровей</td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <td>Окрашивание бровей хной</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>Архитектура бровей</td>
+                    <td>300</td>
+                </tr>
+            </table>
+             
+         </div>
+    </div>
+    <div class="pricecard">
+            <p class="kosm">Прайс <a href="#hidden4" onclick="view('hidden4'); return false">Косметология</a></p>  
+            <div id="hidden4" style="display: none;">
+                
+                <table class="table1">
+                    <tr>
+                        <td class="zag">Наименование услуги</td>
+                        <td class="zag">Цена, руб.</td>
+                    </tr>
+                    <tr>
+                        <td class="zag">Чистка</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Механическая чистка лица</td>
+                        <td>1200</td>
+                    </tr>
+                    <tr>
+                        <td>УЗИ-чистка лица</td>
+                        <td>1300</td>
+                    </tr>
+                    <tr>
+                        <td>Комбинированная чистка лица</td>
+                        <td>1600</td>
+                    </tr>
+                    <tr>
+                        <td>Чистка спины</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td>Удаление милиумов</td>
+                        <td>от 100</td>
+                    </tr>
+                    <tr>
+                        <td class="zag">Массаж</td>
+                    </tr>
+                    <tr>
+                        <td>Массаж лица </td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td>Массаж лица + декольте</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td class="zag">УХОДЫ ДЛЯ ЛИЦА</td>
+                    </tr>
+                    <tr>
+                        <td>Уход с альгинантной маской </td>
+                        <td>от 1000</td>
+                    </tr>
+                    <tr>
+                        <td>Уход по типу кожи </td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td>Карбокстерапия</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>Дарсонваль</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td>Уход с аппаратной методикой </td>
+                        <td>от 1000</td>
+                    </tr>
+                    <tr>
+                        <td>Пилинг</td>
+                        <td>от 1000</td>
+                    </tr>
+                    <tr>
+                        <td class="zag">УХОДЫ ЗА ТЕЛОМ</td>
+                    </tr>
+                    <tr>
+                        <td>Обертывание водорослевое </td>
+                        <td>1200</td>
+                    </tr>
+                    <tr>
+                        <td>Гальваника (одна зона)- </td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>Мезотерапия</td>
+                        <td>от 3000</td>
+                    </tr>
+                    <tr>
+                        <td>Коррекция подбородка </td>
+                        <td>1900</td>
+                    </tr>
+                    <tr>
+                        <td>Липолитики</td>
+                        <td>1900</td>
+                    </tr>
+                    <tr>
+                        <td>Мезотерапия головы </td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td><a href="docs/opisanie_uslug.docx" download="" title="Описание услуг"> Скачать описание услуг</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="pricecard">
+                <p class="parik1">Прайс <a href="#hidden5" onclick="view('hidden5'); return false">Парикмахерские услуги (женский зал)</a></p>  
+                <div id="hidden5" style="display: none;">
+                    <table class="table1">
+                        <tr>
+                            <td class="zag">Наименование услуги</td>
+                            <td class="zag">Цена, руб.</td>
+                        </tr>
+                        <tr>
+                            <td>Стрижка на короткие волосы</td>
+                            <td>500</td>
+                        </tr>
+                        <tr>
+                            <td>Стрижка на средние волосы</td>
+                            <td>550-600</td>
+                        </tr>
+                        <tr>
+                            <td>Стрижка на длинные волосы</td>
+                            <td>650-700</td>
+                        </tr>
+                        <tr>
+                            <td>Стрижка на супер длинные волосы</td>
+                            <td>800</td>
+                        </tr>
+                        <tr>
+                            <td>Стрижка креативная </td>
+                            <td>850</td>
+                        </tr>
+                        <tr>
+                            <td>Стрижка "горячей" бритвой</td>
+                            <td>600</td>
+                        </tr>
+                        <tr>
+                            <td>Стрижка челки</td>
+                            <td>150</td>
+                        </tr>
+                        <tr>
+                            <td>Подравнивание концов(по одной длине без мытья)</td>
+                            <td>400</td>
+                        </tr>
+                        <tr>
+                            <td>Мытье, сушка волос(короткие волосы)</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>Мытье, сушка волос(средние волосы)</td>
+                            <td>200</td>
+                        </tr>
+                        <tr>
+                            <td>Мытье, сушка волос(длинные волосы)</td>
+                            <td>300</td>
+                        </tr>
+                        <tr>
+                            <td>Лечебная маска по типу волос(короткие волосы)</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Лечебная маска по типу волос(средние волосы)</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>Лечебная маска по типу волос(длинные волосы)</td>
+                            <td>150</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+    <div class="pricecard">
+                    <p class="parik2">Прайс <a href="#hidden6" onclick="view('hidden6'); return false">Парикмахерские услуги(мужской зал)</a></p>  
+                    <div id="hidden6" style="display: none;">
+                        
+                        <table class="table1">
+                            <tr>
+                                <td class="zag">Наименование услуги</td>
+                                <td class="zag">Цена, руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Стрижка модельная</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Стрижка под 2 насадки</td>
+                                <td>250-300</td>
+                            </tr>
+                            <tr>
+                                <td>Стрижка наголо </td>
+                                <td>150</td>
+                            </tr>
+                            <tr>
+                                <td>Стрижка бровей; усов - бороды</td>
+                                <td>50;100-300</td>
+                            </tr>
+                            <tr>
+                                <td>Окрашивание бровей; усов -бороды</td>
+                                <td>150;200-300</td>
+                            </tr>
+                            <tr>
+                                <td>Окрашивание волос </td>
+                                <td>150-300</td>
+                            </tr>
+                            <tr>
+                                <td>Укладка волос (со стайлингом)</td>
+                                <td>150-400</td>
+                            </tr>
+                            <tr>
+                                <td>Мытье </td>
+                                <td>50-150</td>
+                            </tr>
+                            <tr>
+                                <td>Сушка </td>
+                                <td>50-150</td>
+                            </tr>
+                        </table>
+                    </div>
+    </div>
+    <div class="pricecard">
+            <p class="parik3">Прайс <a href="#hidden7" onclick="view('hidden7'); return false">Парикмахерские услуги(детский зал)</a></p>  
+            <div id="hidden7" style="display: none;">
+                
+                <table class="table3">
+                    <tr>
+                        <td class="zag">Наименование</td>
+                        <td class="zag">Цена, руб.</td>
+                    </tr>
+                    <tr>
+                        <td>Стрижка модельная</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>Стрижка челки</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Подравнивание кончиков </td>
+                        <td>250-300</td>
+                    </tr>
+                    <tr>
+                        <td>Прическа</td>
+                        <td>500-1000</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+            </div>
+    <div class="pricecard">
+                    <p class="sugar">Прайс <a href="#hidden9" onclick="view('hidden9'); return false">Шугаринг</a></p>  
+                    <div id="hidden9" style="display: none;">
+                        <table class="table1">
+                            <tr>
+                                <td class="zag">Наименование услуги</td>
+                                <td class="zag">Цены, руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Предплечье (от кисти до локтя</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Руки полностью </td>
+                                <td>700</td>
+                            </tr>
+                            <tr>
+                                <td>Подмышечная впадина </td>
+                                <td>300</td>
+                            </tr>
+                            <tr>
+                                <td>Живот (дорожка)- </td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Область копчика </td>
+                                <td>150</td>
+                            </tr>
+                            <tr>
+                                <td>Спина</td>
+                                <td>700</td>
+                            </tr>
+                            <tr>
+                                <td>Лицо (одна зона) </td>
+                                <td>200</td>
+                            </tr>
+                            <tr>
+                                <td>Бикини классика ( по линии трусиков) </td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Бикини глубокое - 1000 руб.</td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>Ноги голень </td>
+                                <td>700</td>
+                            </tr>
+                            <tr>
+                                <td>Ноги бедра </td>
+                                <td>700</td>
+                            </tr>
+                            <tr>
+                                <td>Ноги полностью </td>
+                                <td>1200</td>
+                            </tr>
+                        </table>
+                    </div>
+    </div>
+</section>
+<section id="comments" class="comments">
+    <div id="vk_comments"></div>
+    <script type="text/javascript">
+    VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+    </script>
+</section>
+<section id="contacts" class="contacts">
+    <p>Контактная информация.</p>
+    <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1208.744141080073!2d41.4680627!3d52.7053315!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x788fa1111cafc6e0!2z0KHRgtGD0LTQuNGPICJXaGl0ZSBUb3VjaCI!5e0!3m2!1sru!2sru!4v1565028603054!5m2!1sru!2sru" width="80%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    <div class="contacts2">    
+            <div id="vk_groups"></div>
+            <div class="number2">
+                <p>Адрес: Тамбов, ул. Астраханская 1</p>
+                <p>Телефон: +7 (9027) 25-08-08</p>
+                <p>Режим работы: каждый день с 10:00 до 19:00.</p>
+                <p>Эл. почта: white.touch.tmb@gmail.com</p>
+            </div>
+            <div id="inst"><iframe src="https://averin.pro/widget.php?l=white_touch_tmb&style=1&width=250&gallery=1&s=80&icc=4&icr=4&t=1&tt=Мы в Инстаграм&h=1&ttcolor=FFFFFF&th=ff0000&bw=f9f9f9&bscolor=FFFFFF&bs=FF0000&ts=Подписаться" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:300px; height: 400px" ></iframe></div>
+    </div>
+</section>
+    </main>
+    
+<footer>
+    
+</footer>
+
+
+
+
+
+
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+<!-- RedConnect -->
+<script id="rhlpscrtg" type="text/javascript" charset="utf-8" async="async"
+src="https://web.redhelper.ru/service/main.js?c=98makar98"></script>
+<div style="display: none"><a class="rc-copyright" 
+href="http://redconnect.ru">������ ��������� ������ RedConnect</a></div>
+<!--/RedConnect -->
+<script src="script.js"></script>
+<script type="text/javascript">
+    VK.Widgets.Group("vk_groups", {mode: 4, width: "300", height: "400"}, 169503866)</script>
+
+    
+
+
+</body>
+</html>
