@@ -498,8 +498,8 @@ html[xmlns] .slides {display: block;}
     width: 100%;
     margin-top: 10px;
     height: auto;
-    border-right: 5px solid red;
-    border-left: 5px solid red;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
     background: rgb(255, 255, 255, 0.9)
 }
 .zag{
