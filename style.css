@@ -440,9 +440,9 @@ hr{
               transform: rotate(2deg);
     }
   }  
-.slider_container{ max-width:500px; margin: 0 auto; clear:both; padding:10px 35px 5px 35px; border-bottom: 2px solid red; border-radius: 20px; max-height: 500px; min-height: 320px; min-width:320px; }
-.flex-caption{ position: absolute; right:20px; bottom:20px;}
-.caption_title_line{ width:450px; height:75px; padding:5px;background:white;color: black; font-size:20px; letter-spacing: 1px;outline: 1px dashed black; text-align: center; margin: 0 auto;}
+.slider_container{ width:400px; margin: 0 auto; clear:both; padding:10px 35px 5px 35px; border-bottom: 2px solid red; border-radius: 20px; height: 400px;}
+.flex-caption{ position: absolute; right:20px; bottom:10px;}
+.caption_title_line{ width:350px; height:75px; padding:5px;background:white;color: black; font-size:20px; letter-spacing: 1px;outline: 1px dashed black; text-align: center; margin: 0 auto;}
 .flex-caption h2{ color:black;font-size:34px; font-weight: bold; padding:2px 0 5px 0; margin:0 auto; text-align: center;}
 
 .flex-container a:active,
@@ -454,7 +454,7 @@ hr{
 /* FlexSlider Necessary Styles*/ 
 .flexslider {width: 100%; margin: 0 auto; padding: 0 0 30px 0;}
 .flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides img {max-width: 100%; max-height:100%; display: block; outline: 2px solid black;}
+.flexslider .slides img {max-width: 100%; display: block; outline: 2px solid black; max-height: 100%; min-height: 320px; min-width: 320px;}
 .flex-pauseplay span {text-transform: capitalize;}
 .slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
 html[xmlns] .slides {display: block;} 
@@ -922,7 +922,7 @@ footer{
     }
 }
 @media screen and (max-width: 578px) {
-    .slider_container{ min-width:320px; width:320px; clear:both; background:none; padding:30px 0 0 0; min-height:320px; height:320px ;}
+    .slider_container{ max-width: 320px; width:320px; clear:both; background:none; padding:30px 0 0 0; max-height:320px; height: 320px;}
     .flexslider {width: 100%; margin: 0; padding:0 0 30px 0;background:none;}
     .flex-direction-nav li a {width:45px; height:42px; margin:0; display: block; position: absolute; right:-10px; cursor: pointer; text-indent: -9999px;}
     .flex-direction-nav li a.next {background:url(img/next.jpg) no-repeat center; bottom:85px;}
