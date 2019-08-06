@@ -454,7 +454,7 @@ hr{
 /* FlexSlider Necessary Styles*/ 
 .flexslider {width: 100%; margin: 0 auto; padding: 0 0 30px 0;}
 .flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides img {max-width: 100%; display: block; outline: 2px solid black;}
+.flexslider .slides img {max-width: 100%; max-height:100%; display: block; outline: 2px solid black;}
 .flex-pauseplay span {text-transform: capitalize;}
 .slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
 html[xmlns] .slides {display: block;} 
