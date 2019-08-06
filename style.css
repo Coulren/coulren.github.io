@@ -440,7 +440,7 @@ hr{
               transform: rotate(2deg);
     }
   }  
-.slider_container{ width:500px; margin: 0 auto; clear:both; padding:10px 35px 5px 35px; border-bottom: 2px solid red; border-radius: 20px; height: 500px;}
+.slider_container{ max-width:500px; margin: 0 auto; clear:both; padding:10px 35px 5px 35px; border-bottom: 2px solid red; border-radius: 20px; max-height: 500px; min-height: 320px; min-width:320px; }
 .flex-caption{ position: absolute; right:20px; bottom:20px;}
 .caption_title_line{ width:450px; height:75px; padding:5px;background:white;color: black; font-size:20px; letter-spacing: 1px;outline: 1px dashed black; text-align: center; margin: 0 auto;}
 .flex-caption h2{ color:black;font-size:34px; font-weight: bold; padding:2px 0 5px 0; margin:0 auto; text-align: center;}
