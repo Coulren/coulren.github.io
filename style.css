@@ -15,7 +15,7 @@ body{
     font-family: 'Monotype Corsiva', sans-serif;
     background: url(img/back.jpg) no-repeat;
     background-attachment: fixed; 
-    min-width: 400px;
+    min-width: 320px;
     position: absolute;
     overflow-y: scroll;
     background-size: cover;
@@ -959,7 +959,7 @@ footer{
 }
 
 .bottomcard{
-    width: 350px;
+    width: 300px;
 }
 .topcard{
     width: 300px;
@@ -969,6 +969,19 @@ footer{
 .pricecard p{
     font-size: 25px;
 }
+}
+@media only screen and ( max-width: 320px){
+    .bottomcard{
+        width: 250px;
+    }
+    .topcard{
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .pricecard p{
+        font-size: 23px;
+    }
 }
 
 
