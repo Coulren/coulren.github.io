@@ -542,6 +542,9 @@ td{
 .table3{
     max-width: 350px;
 }
+.table4{max-width: 405px}
+.table5{max-width: 428px}
+.table6{max-width: 467px}
 .nails {
     background:url(img/pback.jpg);
     background-size: cover;
